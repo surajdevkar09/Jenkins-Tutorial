@@ -35,6 +35,9 @@ int secondMax= list.stream().sorted(Comparator.reverseOrder()).distinct().skip(1
 System.out.println(secondMax);
 System.out.println("done");
 
+        Student st= new Student();
+        st.sayHello();
+
 
     }
 }
