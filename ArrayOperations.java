@@ -33,7 +33,7 @@ List<Integer> list=       Arrays.asList(1,2,3,4,5,6,7,8,9,10,10);
 
 int secondMax= list.stream().sorted(Comparator.reverseOrder()).distinct().skip(1).findFirst().get();
 System.out.println(secondMax);
-System.out.println("Hello");
+System.out.println("done");
 
 
     }
